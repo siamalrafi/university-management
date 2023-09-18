@@ -3,6 +3,7 @@ import config from './config/index';
 import { Server } from 'http';
 import app from './app';
 import { logger, errorLogger } from './shared/logger';
+import { User } from './app/modules/users/user.model';
 
 process.on('uncaught exception', error => {
   errorLogger.error(error);

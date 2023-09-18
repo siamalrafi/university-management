@@ -1,0 +1,18 @@
+{
+  service: 'user-service',
+  level: 'error',
+  message: 'Failed to connect database The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.',
+  stack: 'MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.\n' +
+    '    at NativeConnection.createClient (E:\\PARENT\\CLONE\\university-management-two\\node_modules\\mongoose\\lib\\drivers\\node-mongodb-native\\connection.js:206:11)\n' +
+    '    at NativeConnection.openUri (E:\\PARENT\\CLONE\\university-management-two\\node_modules\\mongoose\\lib\\connection.js:755:34)\n' +
+    '    at Mongoose.connect (E:\\PARENT\\CLONE\\university-management-two\\node_modules\\mongoose\\lib\\index.js:404:15)\n' +
+    '    at E:\\PARENT\\CLONE\\university-management-two\\src\\server.ts:16:20\n' +
+    '    at Generator.next (<anonymous>)\n' +
+    '    at E:\\PARENT\\CLONE\\university-management-two\\src\\server.ts:8:71\n' +
+    '    at new Promise (<anonymous>)\n' +
+    '    at __awaiter (E:\\PARENT\\CLONE\\university-management-two\\src\\server.ts:4:12)\n' +
+    '    at boostrap (E:\\PARENT\\CLONE\\university-management-two\\src\\server.ts:25:12)\n' +
+    '    at Object.<anonymous> (E:\\PARENT\\CLONE\\university-management-two\\src\\server.ts:40:1)',
+  label: 'university Management',
+  timestamp: '2023-09-18T16:09:57.522Z'
+}

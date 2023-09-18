@@ -1,0 +1,44 @@
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  level: 'error',
+  service: 'user-service',
+  label: 'university Management',
+  timestamp: '2023-09-16T18:05:51.365Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  stringValue: '"i"',
+  messageFormat: undefined,
+  kind: 'number',
+  value: 'i',
+  path: 'year',
+  reason: null,
+  valueType: 'string',
+  model: Model { AcademicSemester },
+  level: 'error',
+  service: 'user-service',
+  label: 'university Management',
+  timestamp: '2023-09-16T18:08:59.760Z'
+}
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  level: 'error',
+  service: 'user-service',
+  label: 'university Management',
+  timestamp: '2023-09-16T18:22:53.292Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}
+{
+  ok: 0,
+  code: 2,
+  codeName: 'BadValue',
+  level: 'error',
+  service: 'user-service',
+  label: 'university Management',
+  timestamp: '2023-09-16T18:24:30.922Z',
+  [Symbol(errorLabels)]: Set(0) {}
+}

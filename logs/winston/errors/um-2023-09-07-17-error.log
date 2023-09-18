@@ -1,0 +1,6 @@
+{
+  level: 'error',
+  service: 'user-service',
+  label: 'university Management',
+  timestamp: '2023-09-07T11:57:30.167Z'
+}

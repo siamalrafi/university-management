@@ -1,0 +1,2 @@
+{"level":"info","message":"database is connected successfully","service":"user-service"}
+{"level":"info","message":"app is listening in the 5000","service":"user-service"}

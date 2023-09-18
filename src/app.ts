@@ -15,10 +15,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1', router);
 
 // //Testing
-app.get('/', async (req: Request, res: Response, next: NextFunction) => {
-  Promise.reject(new Error('Unhandled Promise Rejected'));
-  // throw new ApiError(httpStatus.BAD_REQUEST, 'Testing errro logger');
-});
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   Promise.reject(new Error('Unhandled Promise Rejected'));
+//   // throw new ApiError(httpStatus.BAD_REQUEST, 'Testing errro logger');
+// });
 
 app.use(globalErrorHandler);
 

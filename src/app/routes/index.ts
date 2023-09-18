@@ -2,6 +2,7 @@ import express from 'express';
 import { userRoute } from '../modules/users/user.route';
 import { SemesterRoute } from '../modules/academicSemester/academicSemester.route';
 import { FacultyRoute } from '../modules/academicFaculty/academicFaculty.route';
+import { User } from '../modules/users/user.model';
 
 const router = express.Router();
 

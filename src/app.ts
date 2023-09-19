@@ -29,8 +29,8 @@ app.use((req: Request, res: Response, next: NextFunction) => {
     message: 'Route not found',
     errorMessage: [
       {
-        path: '.',
-        message: 'Api Is not found',
+        path: req.originalUrl,
+        message: 'API is not found',
       },
     ],
   });

@@ -14,6 +14,16 @@
             "date": 1695061089980,
             "name": "E:\\PARENT\\CLONE\\university-management-two\\logs\\winston\\errors\\um-2023-09-19-00-error.log",
             "hash": "477a75e8850ead4cb19301cb889db9f25d26a8e74d16b64ffa9f40b24844a30b"
+        },
+        {
+            "date": 1695141495320,
+            "name": "E:\\PARENT\\CLONE\\university-management-two\\logs\\winston\\errors\\um-2023-09-19-22-error.log",
+            "hash": "043d32ce14974d73404aa49e78c5bd77e1a35718c9d5c63a5cae94f0c5fd2800"
+        },
+        {
+            "date": 1695142823913,
+            "name": "E:\\PARENT\\CLONE\\university-management-two\\logs\\winston\\errors\\um-2023-09-19-23-error.log",
+            "hash": "de27362b144dcc0a0d3e1c0d1e954f63376d4de2afd42bfa32f9f07fb4164d19"
         }
     ],
     "hashType": "sha256"

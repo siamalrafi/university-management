@@ -25,7 +25,9 @@ const createAcademicSemester = async (
   return result;
 };
 
-// get all semester
+const getAllSemester = (paginationOption: IPaginationOption) => {};
+
+/* // get all semester
 const getAllSemester = async (
   filters: IAcademicSemesterFilters,
   paginationOption: IPaginationOption,
@@ -82,7 +84,7 @@ const getAllSemester = async (
     data: result,
   };
 };
-
+ */
 // get a single semester
 const getASingleSemester = async (
   id: string,

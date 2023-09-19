@@ -26,24 +26,7 @@ const createAcademicSemester = catchAsync(
   },
 );
 
-const getAllSemester = catchAsync(async (req: Request, res: Response) => {
-  const paginationOptions = {
-    page: Number(req.query.page),
-    limit: Number(req.query.limit),
-    sortBy: req.query.sortBy,
-    sortOrder: req.query.sortOrder,
-  };
-  const result =
-    await academicSemesterService.getAllSemester(paginationOptions);
-  responseForData.sendResponseForCreate<IAcademicSemester>(res, {
-    statusCode: httpStatus.OK,
-    success: true,
-    message: 'Semester retrieved successfully',
-    data: result,
-  });
-});
-
-/* // get all semester with pagination sorting filter and search
+// get all semester with pagination sorting filter and search
 const getAllSemester = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, ['searchTerm', 'title', 'code', 'year']);
   const paginationOption = pick(req.query, [
@@ -66,7 +49,7 @@ const getAllSemester = catchAsync(async (req: Request, res: Response) => {
     meta: result.meta,
   });
   // next();
-}); */
+});
 
 // get a single semester
 const getASingleSemester = catchAsync(async (req: Request, res: Response) => {

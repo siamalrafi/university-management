@@ -91,6 +91,7 @@ const deleteSemester = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+// export the data
 export const academicSemesterController = {
   createAcademicSemester,
   getAllSemester,

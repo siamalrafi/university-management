@@ -17,7 +17,7 @@ const academicFacultySchema = new Schema<IAcademicFaculty>(
   },
 );
 
-// 3. Create a Model.
+// 3. Create a Model ---
 export const AcademicFaculty = model<IAcademicFaculty, AcademicFacultyModel>(
   'AcademicFaculty',
   academicFacultySchema,
